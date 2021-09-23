@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: udagram-frontend
-        image: zareen11/udagram-frontend:v1
+        image: zareen11/udagram-frontend:v2
         command: ["sleep", "infinity"]
         ports:
         - containerPort: 8100

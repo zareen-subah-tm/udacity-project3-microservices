@@ -15,8 +15,8 @@ spec:
         app: reverseproxy
     spec:
       containers:
-      - name: udagram-reverseproxy
-        image: zareen11/udagram-reverseproxy:v1
+      - name: reverseproxy
+        image: zareen11/reverseproxy:v1
         command: ["sleep", "infinity"]
         ports:
         - containerPort: 8080
