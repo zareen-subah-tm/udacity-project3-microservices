@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: frontend
   labels:
-    app: frontend
+    service: frontend
 spec:
   replicas: 1
   selector:
